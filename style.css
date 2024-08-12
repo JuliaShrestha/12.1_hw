@@ -1,0 +1,41 @@
+.buttons{
+    gap: 50px;
+    padding: 15px; 
+    display: flex;
+    justify-content: center;
+    background-color:rgb(195, 166, 187);
+}
+
+
+.enter-btn, .follow-btn{
+    background-color: deeppink;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 700; 
+    cursor: pointer;
+    color: white;
+    height: 50px;
+}
+
+
+.enter-btn{
+    width: 95px;
+}
+
+
+.enter-btn:hover{
+    box-shadow: inset 0 0 11px 3px;
+    transition: 0.3s;
+}
+
+
+.follow-btn{
+    width: 110px;
+}
+
+
+.follow-btn:hover{
+    box-shadow: inset 0 0 11px 3px;
+    transition: 0.3s;
+    font-weight: 700;
+}
